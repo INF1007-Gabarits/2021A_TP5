@@ -38,6 +38,7 @@ class TikTok:
         # Ne pas modifier
         return json.dumps({
             'titre': self.titre,
+            'vues': self.vues,
             'musique': self.musique.titre,
             'filtre': self.filtre.nom,
             'animaux': [
