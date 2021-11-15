@@ -208,7 +208,10 @@ class TestOiseau(TestCase):
 
 class TestReptile(TestCase):
     def test_constructeur_serpent(self):
-        pass
+        try:
+            Serpent("Danger Noodle", True, True)
+        except TypeError:
+            self.fail("Le constructeur de Serpent n'a pas été implanté correctement.")
 
     def test_attributs_serpent(self):
         snek = Serpent("Noodle", True, False)

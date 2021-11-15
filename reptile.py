@@ -15,7 +15,7 @@ class Reptile():
         # TODO Je dois retournez une chaine de caractère semblable à :
         #  Le TYPE_REPTILE NOM_REPTILE est nocturne.
         #  ou
-        #  Le TYPE_REPTILE NOM_REPTILE n'est pas nocturne.
+        #  Le TYPE_REPTILE NOM_REPTILE est diurne.
         pass
 
 
