@@ -35,6 +35,7 @@ Votre simulateur se composera de 12 classes à compléter ainsi que le fichier m
 | Filtre          | 
 | TikTok          | 
 | CompteTikTok    | 
+| Accessoire      | 
 | Animal          |
 | Mammifere       | 
 | Reptile         | 
@@ -269,7 +270,6 @@ Hérité de `Mammifere`:
 Propre à `Chat`
 - `str` couleur : La couleur des poils du chat 
 
-TODO
 ![](images/wako.jpg "Wako le Chat")
 
 Wako le Chat
@@ -792,7 +792,23 @@ Dans la fonction `main`, complétez les TODO et retournez l'instance `CompteTikT
 
 ## Barème
 
-TODO
+| Classe / Module   | Points attribués |
+|-------------------|------------------|
+| ElementViral      | 2                |
+| Musique           | 2                |
+| Filtre            | 2                |
+| TikTok            | 5                |
+| CompteTikTok      | 5                |
+| Accessoire        | 4                |
+| Animal            | 4                |
+| Mammifere         | 3                |
+| Chat              | 2                |
+| Oiseau            | 3                |
+| Cockatiel         | 2                |
+| Reptile           | 3                |
+| Serpent           | 3                |
+| main              | 5                |
+| Total             | / 45             |
 
 ## Annexe : Guide et normes de codage
 
