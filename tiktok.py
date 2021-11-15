@@ -48,7 +48,7 @@ class TikTok:
                     'accessoires': [
                         {
                             'nom': accessoire.nom,
-                            'type': str(accessoire.type)
+                            'type': str(accessoire.type_accessoire)
                         } for accessoire in animal.liste_accessoires
                     ]
                 } for animal in self.__animaux
