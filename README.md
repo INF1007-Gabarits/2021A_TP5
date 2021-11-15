@@ -2,7 +2,7 @@
 
 :alarm_clock: [Date de remise: 28 novembre à 23h59](https://www.timeanddate.com/countdown/valentines?iso=20211128T2359&p0=165&msg=Remise+TP5+-+INF1007&font=hand&csz=1)
 
-TODO Image de présentation 
+![](images/presentation.gif)
 
 ## Objectif
 
