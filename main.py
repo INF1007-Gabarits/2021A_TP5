@@ -94,4 +94,6 @@ def main() -> CompteTikTok:
 
 
 if __name__ == '__main__':
-    main()
+    compte = main()
+    for tiktok in compte.tiktoks_plus_populaires():
+        print(tiktok.to_json())

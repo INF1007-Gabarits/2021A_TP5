@@ -1,3 +1,4 @@
+import json
 from typing import List, Union
 
 from animal import Animal
@@ -32,6 +33,26 @@ class TikTok:
         # TODO Retournez le nombre de vues de votre TikTok selon la formule suivante:
         #  vues = SCORE_MUSIQUE + SCORE_FILTRE + NOMBRE_ANIMAUX* SOMME(SCORE_ANIMAUX)
         pass
+
+    def to_json(self):
+        # Ne pas modifier
+        return json.dumps({
+            'titre': self.titre,
+            'musique': self.musique.titre,
+            'filtre': self.filtre.nom,
+            'animaux': [
+                {
+                    'nom': animal.nom,
+                    'espèce': type(animal).__name__,
+                    'accessoires': [
+                        {
+                            'nom': accessoire.nom,
+                            'type': str(accessoire.type)
+                        } for accessoire in animal.liste_accessoires
+                    ]
+                } for animal in self.__animaux
+            ]
+        }, ensure_ascii=False)
 
 
 class CompteTikTok:
