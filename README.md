@@ -80,6 +80,9 @@ ATTENTION : Il est conseillé de compléter les TODO du fichier main.py au fur e
   
 ## Modèle 
 
+![](images/diagramme_classes.png "Diagramme de classe")
+Diagramme de classe
+
 ### ElementViral
 
 Classe **abstraite** dont héritent tous les éléments que peuvent contenir vos vidéos TikTok. 
