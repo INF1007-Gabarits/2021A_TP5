@@ -8,6 +8,7 @@ TODO Image de présentation
 
 * Affuter votre savoir-faire en programmation orientée objet
 * Vous familiariser avec les notions de polymorphisme et héritage
+* Intégrer les bonnes pratiques de programmation dans votre code
 
 ## Directives particulières
 
@@ -71,7 +72,9 @@ ATTENTION : Il est conseillé de compléter les TODO du fichier main.py au fur e
     - [La classe TikTok](#la-classe-tiktok)
     - [La classe CompteTikTok](#la-classe-comptetiktok)
   - [Module main](#module-main)
-
+ - [Barème](#barème)
+ - [Annexe : Guide et normes de codage](#annexe--guide-et-normes-de-codage)
+ - [Sources](#sources)
 ---
   
 ## Modèle 
