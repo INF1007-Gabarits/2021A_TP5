@@ -37,6 +37,6 @@ FILTRE_RALENTI = Filtre("Ralenti", 50000000)
 FILTRE_ETOILES = Filtre("Étoiles", 500000)
 FILTRE_FESTIF = Filtre("Festif", 1000000)
 
-MUSIQUE_WAP = Musique("W.A.P", 934220516)
+MUSIQUE_CHRISTMAS = Musique("All I Want for Christmas is You", 934220516)
 MUSIQUE_BEZOS_I = Musique("Bezos I", 95610379)
 MUSIQUE_SEPTEMBER = Musique("September", 941627159)

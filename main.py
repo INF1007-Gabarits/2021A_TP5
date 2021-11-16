@@ -1,5 +1,5 @@
 from animal import calcul_meilleur_animal
-from elements_tiktok import FILTRE_FESTIF, MUSIQUE_SEPTEMBER, MUSIQUE_BEZOS_I, FILTRE_ETOILES, MUSIQUE_WAP, \
+from elements_tiktok import FILTRE_FESTIF, MUSIQUE_SEPTEMBER, MUSIQUE_BEZOS_I, FILTRE_ETOILES, MUSIQUE_CHRISTMAS, \
     FILTRE_RALENTI
 from mammifere import Chat, LongueurPoils
 from oiseau import Cockatiel
@@ -54,8 +54,8 @@ def main() -> CompteTikTok:
     compte = ...
 
     # TODO: Créer un premier TikTok avec Wako et ajoutez le au compte
-    #  Titre: "Wako renverse un verre d'eau sur lui même"
-    #  Chanson: W.A.P
+    #  Titre: "Wako est prêt pour Noël"
+    #  Chanson: All I Want for Christmas is You
     #  Filtre: Ralenti
     #  UTILISEZ LES CONSTANTES DE elements_tiktok.py
     tiktok1 = ...
