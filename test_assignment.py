@@ -55,6 +55,14 @@ class TestAccessoire(TestCase):
         except TypeError:
             self.fail("Le constructeur de Accessoire n'a pas été implanté correctement.")
 
+    def test_attributs_accessoire(self):
+        accessoire = Accessoire("Boots with the fur", 10, TypeAccessoire.CHAUSSURES)
+        self.assertTrue(hasattr(accessoire, 'nom'), "La classe Accessoire n'a pas d'attribut public 'nom'.")
+        self.assertTrue(hasattr(accessoire, 'type_accessoire'),
+                        "La classe Accessoire n'a pas d'attribut public 'type_accessoire'.")
+        self.assertTrue(hasattr(accessoire, 'niveau_mignonnerie'),
+                        "La classe Accessoire n'a pas d'attribut public 'niveau_mignonnerie'.")
+
     def test_str(self):
         accessoire = Accessoire("Couronne", 20, TypeAccessoire.BIJOU)
         self.assertEqual(
